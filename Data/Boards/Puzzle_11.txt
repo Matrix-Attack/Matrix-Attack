@@ -1,0 +1,16 @@
+<PUZZLE_11>
+<type: 0001> flat board
+<rows: 0003>
+<cols: 0005>
+<camx: 0000>
+<camy: 0000>
+<camz: 0000>
+<rotx: 0000>
+<roty: 0000>
+<rotz: 0000>
+<nmov: 0001>
+<smsg: PUZZLE 11: NO FLIPS ALLOWED
+<gems:
+00 00 00 00 00
+R0 R0 R0 R0 0R
+00 00 00 00 00

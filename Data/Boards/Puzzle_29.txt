@@ -1,0 +1,21 @@
+<PUZZLE_29>
+<type: 0001> flat board
+<rows: 0008>
+<cols: 0005>
+<camx: 0000>
+<camy: 0000>
+<camz: 0000>
+<rotx: 0000>
+<roty: 0000>
+<rotz: 0000>
+<nmov: 0008>
+<smsg: PUZZLE 29: ALMOST ANNOYING
+<gems:
+00 00 00 00 00
+00 00 RY 00 00
+00 BY 00 BY 00
+BY R0 YY 00 RY
+00 RY 00 BY R0
+00 00 BY 00 00
+00 00 00 00 00
+00 00 00 00 00

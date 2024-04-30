@@ -1,4 +1,4 @@
-# Matrix-Attack
+# Matrix Attack
 A PC puzzle game from around the year 2000
 
 
@@ -25,6 +25,8 @@ Knowing that my Matrix Advance game was a clone of Matrix Attack, there have bee
 Well, it turns out I still have that, along with all of the original, unmodified source code!
 
 I'm publishing all of that content here now for anyone else that wishes to learn from late 90's style game programming in OpenGL and DirectDraw.
+
+This software is otherwise abandonware by DigiPen, so I'm rereleasing it to the public for the sake of historical preservation.
 
 
 

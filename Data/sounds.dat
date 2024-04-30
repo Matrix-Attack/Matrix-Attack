@@ -1,0 +1,20 @@
+NUMSOUNDEFFECTS 18
+
+STATICINDEX 0		STATICNAME data\sound\switch.wav
+STATICINDEX 1		STATICNAME data\sound\Linker1.wav
+STATICINDEX 2		STATICNAME data\sound\Linker2.wav
+STATICINDEX 3		STATICNAME data\sound\Linker3.wav
+STATICINDEX 4		STATICNAME data\sound\flip.wav
+STATICINDEX 5		STATICNAME data\sound\Cluster1.wav
+STATICINDEX 6		STATICNAME data\sound\Cluster2.wav
+STATICINDEX 7		STATICNAME data\sound\Cluster3.wav
+STATICINDEX 8		STATICNAME data\sound\Combo1.wav
+STATICINDEX 9		STATICNAME data\sound\Combo2.wav
+STATICINDEX 10		STATICNAME data\sound\Combo3.wav
+STATICINDEX 11		STATICNAME data\sound\Streak1.wav
+STATICINDEX 12		STATICNAME data\sound\Streak2.wav
+STATICINDEX 13		STATICNAME data\sound\Streak3.wav
+STATICINDEX 14		STATICNAME data\sound\Streak4.wav
+STATICINDEX 15		STATICNAME data\sound\Streak5.wav
+STATICINDEX 16		STATICNAME data\sound\Streak6.wav
+STATICINDEX 17		STATICNAME data\sound\Streak7.wav

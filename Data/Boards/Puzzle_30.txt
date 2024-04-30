@@ -1,0 +1,21 @@
+<PUZZLE_30>
+<type: 0001> flat board
+<rows: 0008>
+<cols: 0005>
+<camx: 0000>
+<camy: 0000>
+<camz: 0000>
+<rotx: 0000>
+<roty: 0000>
+<rotz: 0000>
+<nmov: 0007>
+<smsg: PUZZLE 30: MANIC DEPRESSIVE
+<gems:
+00 GB 00 GB 00
+00 00 00 00 00
+00 00 GB 00 00
+G0 00 00 G0 00
+00 GB GB GB 00
+0B 00 00 0B 00
+00 00 00 00 00
+00 00 00 00 00

@@ -1,0 +1,21 @@
+<PUZZLE_27>
+<type: 0001> flat board
+<rows: 0008>
+<cols: 0005>
+<camx: 0000>
+<camy: 0000>
+<camz: 0000>
+<rotx: 0000>
+<roty: 0000>
+<rotz: 0000>
+<nmov: 0004>
+<smsg: PUZZLE 27: 3 MOVES ARE ALL YOU NEED
+<gems:
+00 00 00 00 00
+00 00 R0 R0 00
+00 B0 00 R0 00
+00 B0 R0 00 00
+R0 R0 00 00 RB
+00 B0 R0 00 00
+00 B0 00 R0 R0
+00 00 00 R0 00

@@ -1,0 +1,19 @@
+<PUZZLE_34>
+<type: 0001> flat board
+<rows: 0006>
+<cols: 0005>
+<camx: 0000>
+<camy: 0000>
+<camz: 0000>
+<rotx: 0000>
+<roty: 0000>
+<rotz: 0000>
+<nmov: 0002>
+<smsg: PUZZLE 34: DON'T FLIP TOO EARLY
+<gems:
+00 00 00 00 00
+Y0 00 00 00 00
+P0 YP P0 P0 P0
+00 0Y 0P 00 00
+P0 YP P0 P0 P0
+Y0 00 00 00 00

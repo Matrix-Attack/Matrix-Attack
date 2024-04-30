@@ -1,0 +1,21 @@
+<PUZZLE_20>
+<type: 0001> flat board
+<rows: 0008>
+<cols: 0005>
+<camx: 0000>
+<camy: 0000>
+<camz: 0000>
+<rotx: 0000>
+<roty: 0000>
+<rotz: 0000>
+<nmov: 0009>
+<smsg: PUZZLE 20: NOT AS EASY AS IT LOOKS
+<gems:
+00 00 0G 00 00
+00 00 0G 00 00
+00 00 0G 00 00
+00 0G 0G 00 00
+00 00 0G 00 00
+00 00 0G 00 00
+00 00 0G 00 00
+00 00 00 00 00

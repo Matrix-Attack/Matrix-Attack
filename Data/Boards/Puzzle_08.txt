@@ -1,0 +1,19 @@
+<PUZZLE_8>
+<type: 0001> flat board
+<rows: 0006>
+<cols: 0005>
+<camx: 0000>
+<camy: 0000>
+<camz: 0000>
+<rotx: 0000>
+<roty: 0000>
+<rotz: 0000>
+<nmov: 0002>
+<smsg: PUZZLE 8: THINK ABOUT THE FUTURE!
+<gems:
+00 00 00 00 00
+00 00 00 Y0 00
+00 G0 G0 00 00
+G0 YG Y0 G0 00
+00 G0 00 Y0 00
+00 00 00 Y0 00

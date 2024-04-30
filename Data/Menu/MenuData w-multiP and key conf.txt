@@ -1,0 +1,1093 @@
+**** comments *******************************************************
+     - explanation of file format can be found at the bottom
+
+     - because this file is generalized for buttons of all types,
+	some of the information is irrelevant for some types of
+	buttons. in this case, the information is labeled "N/A"
+
+     - these are the surfaceIDs as defined in gamemenu.h (current as
+		of 1999 OCT 22):
+
+		#define MENU_BACKGROUND_SURF	0
+		#define MENU_BUTTONS_SURF	1
+		#define MENU_CURSOR_SURF	2
+		#define	MENU_FILE_ICONS_SURF	3
+		#define MENU_FONT_SURF		4
+		#define MENU_GAMEPAD_SURF	5
+		#define MENU_PAD_BUTTONS_SURF	6
+
+*********************************************************************
+
+buttonID    : 0 (new player)
+textString  : NEW PLAYER
+textOffset  : 999 999 (N/A)
+enabled     : 999
+cursorPos   : 016 175
+enabledPos  : 058 175
+disabledPos : -256 175 //122 + 53 = 175
+surfaceID   : 002
+clipSelect  : 000 001 256 031
+clipDeselect: 000 001 256 031
+actionID    : 023 024 999 011
+neighbors   : 004 001 999 044 999
+
+buttonID    : 1 (load player)
+textString  : LOAD PLAYER
+textOffset  : 999 999 (N/A)
+enabled     : 999
+cursorPos   : 016 239
+enabledPos  : 058 239
+disabledPos : -256 239 //186 + 53 = 239
+surfaceID   : 002
+clipSelect  : 000 031 256 061
+clipDeselect: 000 031 256 061
+actionID    : 000 001 999 012
+neighbors   : 000 002 999 005 999
+
+buttonID    : 2 (delete player)
+textString  : DELETE PLAYER
+textOffset  : 999 999 (N/A)
+enabled     : 999
+cursorPos   : 016 303 //250
+enabledPos  : 058 303
+disabledPos : -256 303
+surfaceID   : 002
+clipSelect  : 000 061 256 091
+clipDeselect: 000 061 256 091
+actionID    : 002 003 999 013
+neighbors   : 001 004 999 005 999
+
+buttonID    : 3 (key config)
+textString  : KEY CONFIG
+textOffset  : 999 999 (N/A)
+enabled     : 999
+cursorPos   : 016 367
+enabledPos  : 058 367
+disabledPos : -256 367 //314
+surfaceID   : 002
+clipSelect  : 000 091 256 121
+clipDeselect: 000 091 256 121
+actionID    : 006 007 999 014
+neighbors   : 002 004 999 010 999
+
+buttonID    : 4 (cancel)
+textString  : LOGIN CANCEL
+textOffset  : 999 999 (N/A)
+enabled     : 999
+cursorPos   : 016 431
+enabledPos  : 058 431 //378
+disabledPos : -256 431
+surfaceID   : 002
+clipSelect  : 000 121 256 151
+clipDeselect: 000 121 256 151
+actionID    : 999 999 999 015
+neighbors   : 002 000 999 999 999
+
+buttonID    : 5 (slot 01)
+textString  : SLOT 01
+textOffset  : 081 023
+enabled     : 999
+cursorPos   : 332 040
+enabledPos  : 374 020
+disabledPos : 720 020
+surfaceID   : 004
+clipSelect  : 000 000 064 064
+clipDeselect: 064 000 128 064
+actionID    : 999 004 005 016
+neighbors   : 999 006 001 999 001
+
+buttonID    : 6 (slot 02)
+textString  : SLOT 02
+textOffset  : 081 023
+enabled     : 999
+cursorPos   : 332 134
+enabledPos  : 374 114
+disabledPos : 720 114
+surfaceID   : 004
+clipSelect  : 000 000 064 064
+clipDeselect: 064 000 128 064
+actionID    : 999 004 005 016
+neighbors   : 005 007 001 999 001
+
+buttonID    : 7 (slot 03)
+textString  : SLOT 03
+textOffset  : 081 023
+enabled     : 999
+cursorPos   : 332 228
+enabledPos  : 374 208
+disabledPos : 720 208
+surfaceID   : 004
+clipSelect  : 000 000 064 064
+clipDeselect: 064 000 128 064
+actionID    : 999 004 005 016
+neighbors   : 006 008 001 999 001
+
+buttonID    : 8 (slot 04)
+textString  : SLOT 04
+textOffset  : 081 023
+enabled     : 999
+cursorPos   : 332 322
+enabledPos  : 374 302
+disabledPos : 720 302
+surfaceID   : 004
+clipSelect  : 000 000 064 064
+clipDeselect: 064 000 128 064
+actionID    : 999 004 005 016
+neighbors   : 007 009 001 999 001
+
+buttonID    : 9 (slot 05)
+textString  : SLOT 05
+textOffset  : 081 023
+enabled     : 999
+cursorPos   : 332 416
+enabledPos  : 374 396
+disabledPos : 720 396
+surfaceID   : 004
+clipSelect  : 000 000 064 064
+clipDeselect: 064 000 128 064
+actionID    : 999 004 005 016
+neighbors   : 008 999 001 999 001
+
+buttonID    : 10 (game pad)
+textString  : GAME PAD
+textOffset  : 999 999 (N/A)
+enabled     : 999
+cursorPos   : 332 115
+enabledPos  : 383 085
+disabledPos : 729 085
+surfaceID   : 005
+clipSelect  : 000 128 190 212 (N/A)
+clipDeselect: 000 128 190 212 (N/A)
+actionID    : 008 009 999 999
+neighbors   : 011 013 003 999 003
+
+buttonID    : 11 (move up)
+textString  : UP
+textOffset  : 006 003
+enabled     : 999
+cursorPos   : 332 055
+enabledPos  : 377 055
+disabledPos : -123 055
+surfaceID   : 005
+clipSelect  : 070 000 140 016
+clipDeselect: 000 000 070 016
+actionID    : 999 999 999 999
+neighbors   : 014 010 999 015 999
+
+buttonID    : 12 (move down)
+textString  : DOWN
+textOffset  : 006 003
+enabled     : 999
+cursorPos   : 332 215
+enabledPos  : 377 215
+disabledPos : -123 215
+surfaceID   : 005
+clipSelect  : 070 000 140 016
+clipDeselect: 000 000 070 016
+actionID    : 999 999 999 999
+neighbors   : 013 999 999 016 999
+
+buttonID    : 13 (move left)
+textString  : LEFT
+textOffset  : 006 003
+enabled     : 999
+cursorPos   : 332 183
+enabledPos  : 377 183
+disabledPos : -123 183
+surfaceID   : 005
+clipSelect  : 070 000 140 016
+clipDeselect: 000 000 070 016
+actionID    : 999 999 999 999
+neighbors   : 010 012 999 018 999
+
+buttonID    : 14 (move right)
+textString  : RIGHT
+textOffset  : 006 003
+enabled     : 999
+cursorPos   : 332 023
+enabledPos  : 377 023
+disabledPos : -123 023
+surfaceID   : 005
+clipSelect  : 070 000 140 016
+clipDeselect: 000 000 070 016
+actionID    : 999 999 999 999
+neighbors   : 999 011 999 017 999
+
+buttonID    : 15 (smack)
+textString  : SMACK
+textOffset  : 006 003
+enabled     : 999
+cursorPos   : 464 055
+enabledPos  : 509 055
+disabledPos : 1009 055
+surfaceID   : 005
+clipSelect  : 070 000 140 016
+clipDeselect: 000 000 070 016
+actionID    : 999 999 999 999
+neighbors   : 017 018 011 999 999
+
+buttonID    : 16 (flip)
+textString  : FLIP
+textOffset  : 006 003
+enabled     : 999
+cursorPos   : 464 215
+enabledPos  : 509 215
+disabledPos : 1009 215
+surfaceID   : 005
+clipSelect  : 070 000 140 016
+clipDeselect: 000 000 070 016
+actionID    : 999 999 999 999
+neighbors   : 018 999 012 999 999
+
+buttonID    : 17 (switch)
+textString  : SWITCH
+textOffset  : 006 003
+enabled     : 999
+cursorPos   : 464 023
+enabledPos  : 509 023
+disabledPos : 1009 023
+surfaceID   : 005
+clipSelect  : 070 000 140 016
+clipDeselect: 000 000 070 016
+actionID    : 999 999 999 999
+neighbors   : 999 015 014 999 999
+
+buttonID    : 18 (pause)
+textString  : PAUSE
+textOffset  : 006 003
+enabled     : 999
+cursorPos   : 464 183
+enabledPos  : 509 183
+disabledPos : 1009 183
+surfaceID   : 005
+clipSelect  : 070 000 140 016
+clipDeselect: 000 000 070 016
+actionID    : 999 999 999 999
+neighbors   : 015 016 013 999 999
+
+buttonID    : 19 (up light beam)
+textString  : UP LIGHT BEAM
+textOffset  : 999 999 (N/A)
+enabled     : 999
+cursorPos   : 000 000 (N/A)
+enabledPos  : 423 070
+disabledPos : -77 070
+surfaceID   : 006
+clipSelect  : 004 222 008 250
+clipDeselect: 000 222 004 250
+actionID    : 999 999 010 999
+neighbors   : 999 999 999 999 011
+
+buttonID    : 20 (down light beam)
+textString  : DOWN LIGHT BEAM
+textOffset  : 999 999 (N/A)
+enabled     : 999
+cursorPos   : 000 000 (N/A)
+enabledPos  : 430 144
+disabledPos : -70 144
+surfaceID   : 006
+clipSelect  : 034 082 068 164
+clipDeselect: 000 082 034 164
+actionID    : 999 999 010 999
+neighbors   : 999 999 999 999 012
+
+buttonID    : 21 (left light beam)
+textString  : LEFT LIGHT BEAM
+textOffset  : 999 999 (N/A)
+enabled     : 999
+cursorPos   : 000 000 (N/A)
+enabledPos  : 386 125
+disabledPos : -114 125
+surfaceID   : 006
+clipSelect  : 016 164 032 222
+clipDeselect: 000 164 016 222
+actionID    : 999 999 010 999
+neighbors   : 999 999 999 999 013
+
+buttonID    : 22 (right light beam
+textString  : RIGHT LIGHT BEAM
+textOffset  : 999 999 (N/A)
+enabled     : 999
+cursorPos   : 000 000 (N/A)
+enabledPos  : 448 029
+disabledPos : -52 029
+surfaceID   : 006
+clipSelect  : 186 100 202 200
+clipDeselect: 170 100 186 200
+actionID    : 999 999 010 999
+neighbors   : 999 999 999 999 014
+
+buttonID    : 23 (smack light beam)
+textString  : SMACK LIGHT BEAM
+textOffset  : 999 999 (N/A)
+enabled     : 999
+cursorPos   : 464 055
+enabledPos  : 529 070
+disabledPos : 1029 070
+surfaceID   : 006
+clipSelect  : 004 222 008 250
+clipDeselect: 000 222 004 250
+actionID    : 999 999 010 999
+neighbors   : 999 999 999 999 015
+
+buttonID    : 24 (flip light beam)
+textString  : FLIP LIGHT BEAM
+textOffset  : 999 999 (N/A)
+enabled     : 999
+cursorPos   : 000 000 (N/A)
+enabledPos  : 492 144
+disabledPos : 992 144
+surfaceID   : 006
+clipSelect  : 034 000 068 082
+clipDeselect: 000 000 034 082
+actionID    : 999 999 010 999
+neighbors   : 999 999 999 999 016
+
+buttonID    : 25 (switch light beam)
+textString  : SWITCH LIGHT BEAM
+textOffset  : 999 999 (N/A)
+enabled     : 999
+cursorPos   : 000 000 (N/A)
+enabledPos  : 492 029
+disabledPos : 992 029
+surfaceID   : 006
+clipSelect  : 186 000 202 100
+clipDeselect: 170 000 186 100
+actionID    : 999 999 010 999
+neighbors   : 999 999 999 999 017
+
+buttonID    : 26 (pause light beam)
+textString  : PAUSE LIGHT BEAM
+textOffset  : 999 999 (N/A)
+enabled     : 999
+cursorPos   : 000 000 (N/A)
+enabledPos  : 554 125
+disabledPos : 1054 125
+surfaceID   : 006
+clipSelect  : 096 164 112 222
+clipDeselect: 080 164 096 222
+actionID    : 999 999 010 999
+neighbors   : 999 999 999 999 018
+
+buttonID    : 27 (single player)
+textString  : SINGLE PLAYER
+textOffset  : 999 999 (N/A)
+enabled     : 999
+cursorPos   : 298 275
+enabledPos  : 340 275
+disabledPos : 640 275
+surfaceID   : 002
+clipSelect  : 000 151 256 181
+clipDeselect: 000 151 256 181
+actionID    : 999 999 999 017
+neighbors   : 029 078 999 999 999
+
+buttonID    : 28  (multi player)
+textString  : MULTI PLAYER
+textOffset  : 999 999 (N/A)
+enabled     : 999
+cursorPos   : 298 325
+enabledPos  : 340 325
+disabledPos : 640 325
+surfaceID   : 002
+clipSelect  : 000 181 256 211
+clipDeselect: 000 181 256 211
+actionID    : 999 999 999 018
+neighbors   : 027 078 999 999 999
+
+buttonID    : 29 (quit)
+textString  : QUIT
+textOffset  : 999 999 (N/A)
+enabled     : 999
+cursorPos   : 298 425
+enabledPos  : 340 425
+disabledPos : 640 425
+surfaceID   : 002
+clipSelect  : 000 211 256 241
+clipDeselect: 000 211 256 241
+actionID    : 999 999 999 019
+neighbors   : 078 027 999 999 999
+
+buttonID    : 30 (time trial button)
+textString  : TIME TRIAL
+textOffset  : 999 999 (N/A)
+enabled     : 999
+cursorPos   : 016 175
+enabledPos  : 058 175
+disabledPos : 058 481
+surfaceID   : 007
+clipSelect  : 000 031 256 061
+clipDeselect: 000 031 256 061
+actionID    : 999 999 999 029
+neighbors   : 033 031 999 999 999
+
+buttonID    : 31 (puzzle button)
+textString  : PUZZLE
+textOffset  : 999 999 (N/A)
+enabled     : 999
+cursorPos   : 016 239
+enabledPos  : 058 239
+disabledPos : 058 481 
+surfaceID   : 007
+clipSelect  : 000 061 256 091
+clipDeselect: 000 061 256 091
+actionID    : 999 999 999 053
+neighbors   : 030 032 999 999 999
+
+buttonID    : 32 (Stats)
+textString  : STATS
+textOffset  : 999 999 (N/A)
+enabled     : 999
+cursorPos   : 016 303 
+enabledPos  : 058 303
+disabledPos : 058 481
+surfaceID   : 007
+clipSelect  : 000 091 256 121
+clipDeselect: 000 091 256 121
+actionID    : 999 999 999 058
+neighbors   : 031 033 999 999 999
+
+buttonID    : 33 (cancel game select)
+textString  : CANCEL GAME SELECT
+textOffset  : 999 999 (N/A)
+enabled     : 999
+cursorPos   : 016 431
+enabledPos  : 058 431 
+disabledPos : 058 481
+surfaceID   : 002
+clipSelect  : 000 121 256 151
+clipDeselect: 000 121 256 151
+actionID    : 999 999 999 015
+neighbors   : 032 030 999 999 999
+
+buttonID    : 34 (cancel input IP)
+textString  : CANCEL INPUT IP
+textOffset  : 999 999 (N/A)
+enabled     : 999
+cursorPos   : 016 431
+enabledPos  : 058 431 
+disabledPos : 058 481
+surfaceID   : 002
+clipSelect  : 000 121 256 151
+clipDeselect: 000 121 256 151
+actionID    : 999 999 999 015
+neighbors   : 042 042 999 999 999
+
+buttonID    : 35 (channel list)
+textString  : CHANNEL LIST
+textOffset  : 999 999 (N/A)
+enabled     : 999
+cursorPos   : 016 202
+enabledPos  : 058 202
+disabledPos : 058 481
+surfaceID   : 008
+clipSelect  : 000 000 080 028
+clipDeselect: 000 000 080 028
+actionID    : 999 999 999 048
+neighbors   : 041 036 999 999 999
+
+buttonID    : 36 (Create Channel)
+textString  : CREATE CHANNEL
+textOffset  : 999 999 (N/A)
+enabled     : 999
+cursorPos   : 016 237
+enabledPos  : 058 237
+disabledPos : 058 481
+surfaceID   : 008
+clipSelect  : 000 028 080 056
+clipDeselect: 000 028 080 056
+actionID    : 999 999 999 040
+neighbors   : 035 038 999 999 999
+
+buttonID    : 37 (games list)
+textString  : GAMES LIST
+textOffset  : 999 999 (N/A)
+enabled     : 999
+cursorPos   : 016 260
+enabledPos  : 058 481
+disabledPos : 058 481
+surfaceID   : 008
+clipSelect  : 000 056 080 084
+clipDeselect: 000 056 080 084
+actionID    : 999 999 999 999
+neighbors   : 036 038 999 999 999
+
+buttonID    : 38 (create game)
+textString  : CREATE GAME
+textOffset  : 999 999 (N/A)
+enabled     : 999
+cursorPos   : 016 275
+enabledPos  : 058 275
+disabledPos : 058 481
+surfaceID   : 008
+clipSelect  : 160 056 240 084
+clipDeselect: 160 056 240 084
+actionID    : 999 999 999 031
+neighbors   : 036 039 999 999 999
+
+buttonID    : 39 (server stats)
+textString  : SERVER STATS
+textOffset  : 999 999 (N/A)
+enabled     : 999
+cursorPos   : 016 312
+enabledPos  : 058 312
+disabledPos : 058 481
+surfaceID   : 008
+clipSelect  : 080 028 160 056
+clipDeselect: 080 028 160 056
+actionID    : 999 999 999 045
+neighbors   : 038 040 999 999 999
+
+buttonID    : 40 (player stats)
+textString  : PLAYER STATS
+textOffset  : 999 999 (N/A)
+enabled     : 999
+cursorPos   : 016 345
+enabledPos  : 058 345
+disabledPos : 058 481
+surfaceID   : 008
+clipSelect  : 080 056 160 084
+clipDeselect: 080 056 160 084
+actionID    : 999 999 999 046
+neighbors   : 039 050 999 999 999
+
+buttonID    : 41 (player CHAT Input)
+textString  : 999
+textOffset  : 005 003 (N/A)
+enabled     : 999
+cursorPos   : 108 415
+enabledPos  : 163 415
+disabledPos : 163 415
+surfaceID   : 005
+clipSelect  : 000 000 000 000
+clipDeselect: 000 000 000 000
+actionID    : 999 999 022 030
+neighbors   : 050 035 999 999 999
+
+buttonID    : 42 (IP Input)
+textString  : ENTER IP
+textOffset  : 999 999 (N/A)
+enabled     : 999
+cursorPos   : 016 200
+enabledPos  : 058 200
+disabledPos : 058 481
+surfaceID   : 008
+clipSelect  : 000 084 209 112
+clipDeselect: 000 084 209 112
+actionID    : 999 999 020 052
+neighbors   : 034 034 999 999 999
+
+buttonID    : 43 (IP Error)
+textString  : ERRPR IN IP ADDRESS
+textOffset  : 999 999 (N/A)
+enabled     : 999
+cursorPos   : 116 122
+enabledPos  : 170 122
+disabledPos : 170 481
+surfaceID   : 008
+clipSelect  : 160 000 256 028
+clipDeselect: 160 000 256 028
+actionID    : 999 999 021 999 
+neighbors   : 999 999 999 999 999
+
+buttonID    : 44 (select fox chick)
+textString  : FOX GIRL
+textOffset  : 070 020
+enabled     : 999
+cursorPos   : 332 038
+enabledPos  : 374 038
+disabledPos : 720 038
+surfaceID   : 004
+clipSelect  : 000 000 064 064
+clipDeselect: 064 000 128 064
+actionID    : 999 004 999 016
+neighbors   : 999 045 000 999 000
+
+buttonID    : 45 (select vine chick)
+textString  : PLANT LADY
+textOffset  : 070 020
+enabled     : 999
+cursorPos   : 332 152
+enabledPos  : 374 152
+disabledPos : 720 152
+surfaceID   : 004
+clipSelect  : 000 064 064 128
+clipDeselect: 064 064 128 128
+actionID    : 999 004 999 016
+neighbors   : 044 046 000 999 000
+
+buttonID    : 46 (select ninja dude)
+textString  : NINJA DUDE
+textOffset  : 070 020
+enabled     : 999
+cursorPos   : 332 266
+enabledPos  : 374 266
+disabledPos : 720 266
+surfaceID   : 004
+clipSelect  : 000 128 064 192
+clipDeselect: 064 128 128 192
+actionID    : 999 004 999 016
+neighbors   : 045 047 000 999 000
+
+buttonID    : 47 (select miles bundy)
+textString  : BUNDY
+textOffset  : 070 020
+enabled     : 999
+cursorPos   : 332 380
+enabledPos  : 374 380
+disabledPos : 720 380
+surfaceID   : 004
+clipSelect  : 000 192 064 256
+clipDeselect: 064 192 128 256
+actionID    : 999 004 999 016
+neighbors   : 046 999 000 999 000
+
+buttonID    : 48 (name entry)
+textString  : 999
+textOffset  : 053 009
+enabled     : 999
+cursorPos   : 332 192
+enabledPos  : 374 192
+disabledPos : 720 192
+surfaceID   : 008
+clipSelect  : 000 112 209 140
+clipDeselect: 000 112 209 140
+actionID    : 999 999 025 999 
+neighbors   : 999 999 999 999 999
+
+buttonID    : 49 (NEW PLAYER password entry)
+textString  : 999
+textOffset  : 093 009
+enabled     : 999
+cursorPos   : 332 220
+enabledPos  : 374 220
+disabledPos : 720 220
+surfaceID   : 008
+clipSelect  : 000 140 209 168
+clipDeselect: 000 140 209 168
+actionID    : 999 999 026 027 
+neighbors   : 999 999 999 999 999
+
+buttonID    : 50 (leave chat)
+textString  : 999
+textOffset  : 999 999
+enabled     : 999
+cursorPos   : 016 380
+enabledPos  : 058 380
+disabledPos : 641 427
+surfaceID   : 008
+clipSelect  : 160 028 250 056
+clipDeselect: 160 028 250 056
+actionID    : 999 999 026 015 
+neighbors   : 040 041 999 999 999
+
+buttonID    : 51 (LOAD PLAYER password entry)
+textString  : 999
+textOffset  : 093 009
+enabled     : 999
+cursorPos   : 332 220
+enabledPos  : 374 220
+disabledPos : 720 220
+surfaceID   : 008
+clipSelect  : 000 140 209 168
+clipDeselect: 000 140 209 168
+actionID    : 999 999 026 028
+neighbors   : 999 999 999 999 999
+
+buttonID    : 52 (ERASE PLAYER password entry)
+textString  : 999
+textOffset  : 093 009
+enabled     : 999
+cursorPos   : 332 220
+enabledPos  : 374 220
+disabledPos : 720 220
+surfaceID   : 008
+clipSelect  : 000 140 209 168
+clipDeselect: 000 140 209 168
+actionID    : 999 999 026 033
+neighbors   : 999 999 999 999 999
+
+buttonID    : 53 (cancel)
+textString  : START GAME CANCEL
+textOffset  : 999 999 (N/A)
+enabled     : 999
+cursorPos   : 016 431
+enabledPos  : 058 431 //378
+disabledPos : 058 481
+surfaceID   : 002
+clipSelect  : 000 121 256 151
+clipDeselect: 000 121 256 151
+actionID    : 999 999 032 015
+neighbors   : 054 055 999 999 038
+
+buttonID    : 54 (ok button)
+textString  : OK
+textOffset  : 999 999 (N/A)
+enabled     : 999
+cursorPos   : 016 350
+enabledPos  : 058 350
+disabledPos : 058 481 
+surfaceID   : 007
+clipSelect  : 000 001 256 031
+clipDeselect: 000 001 256 031
+actionID    : 999 999 032 047
+neighbors   : 055 053 999 999 999
+
+buttonID    : 55 (mpOption 1)
+textString  : 999
+textOffset  : 999 999
+enabled     : 999
+cursorPos   : 130 65
+enabledPos  : 000 000
+disabledPos : 000 000
+surfaceID   : 007
+clipSelect  : 000 000 000 000
+clipDeselect: 000 000 000 000
+actionID    : 999 999 032 034 
+neighbors   : 053 054 999 999 999
+
+buttonID    : 56 (mpOption 2)
+textString  : 999
+textOffset  : 053 009
+enabled     : 999
+cursorPos   : 130 125
+enabledPos  : 000 000
+disabledPos : 000 000
+surfaceID   : 007
+clipSelect  : 000 000 000 000
+clipDeselect: 000 000 000 000
+actionID    : 999 999 032 035 
+neighbors   : 055 057 999 999 999
+
+buttonID    : 57 (mpOption 3)
+textString  : 999
+textOffset  : 053 009
+enabled     : 999
+cursorPos   : 130 185
+enabledPos  : 000 000
+disabledPos : 000 000
+surfaceID   : 007
+clipSelect  : 000 000 000 000
+clipDeselect: 000 000 000 000
+actionID    : 999 999 032 036 
+neighbors   : 056 058 999 999 999
+
+buttonID    : 58 (mpOption 4)
+textString  : 999
+textOffset  : 053 009
+enabled     : 999
+cursorPos   : 130 245
+enabledPos  : 000 000
+disabledPos : 000 000
+surfaceID   : 007
+clipSelect  : 000 000 000 000
+clipDeselect: 000 000 000 000
+actionID    : 999 999 032 037 
+neighbors   : 057 059 999 999 999
+
+buttonID    : 59 (mpOption 5)
+textString  : 999
+textOffset  : 053 009
+enabled     : 999
+cursorPos   : 130 305
+enabledPos  : 000 000
+disabledPos : 000 000
+surfaceID   : 007
+clipSelect  : 000 000 000 000
+clipDeselect: 000 000 000 000
+actionID    : 999 999 032 038 
+neighbors   : 058 054 999 999 999
+
+buttonID    : 60 (Create Channel password entry)
+textString  : 999
+textOffset  : 093 009
+enabled     : 999
+cursorPos   : 332 220
+enabledPos  : 374 220
+disabledPos : 720 220
+surfaceID   : 008
+clipSelect  : 000 140 209 168
+clipDeselect: 000 140 209 168
+actionID    : 999 999 026 039
+neighbors   : 048 061 999 999 999
+
+buttonID    : 61 (cancel)
+textString  : START GAME CANCEL
+textOffset  : 999 999 (N/A)
+enabled     : 999
+cursorPos   : 016 431
+enabledPos  : 058 431 //378
+disabledPos : 058 481
+surfaceID   : 002
+clipSelect  : 000 121 256 151
+clipDeselect: 000 121 256 151
+actionID    : 999 999 999 015
+neighbors   : 060 048 999 999 999
+
+buttonID    : 62 (high score data server)
+textString  : START GAME CANCEL
+textOffset  : 999 999 (N/A)
+enabled     : 999
+cursorPos   : 016 431
+enabledPos  : 058 431 //378
+disabledPos : 058 481
+surfaceID   : 002
+clipSelect  : 000 121 256 151
+clipDeselect: 000 121 256 151
+actionID    : 999 999 042 041
+neighbors   : 999 999 999 999 999
+
+buttonID    : 63 (high score data client)
+textString  : START GAME CANCEL
+textOffset  : 999 999 (N/A)
+enabled     : 999
+cursorPos   : 016 431
+enabledPos  : 058 431 //378
+disabledPos : 058 481
+surfaceID   : 002
+clipSelect  : 000 121 256 151
+clipDeselect: 000 121 256 151
+actionID    : 999 999 044 043
+neighbors   : 999 999 999 999 999
+
+buttonID    : 64 (cancel)
+textString  : Join Channel Cancel
+textOffset  : 999 999 (N/A)
+enabled     : 999
+cursorPos   : 016 431
+enabledPos  : 058 431 //378
+disabledPos : 058 481
+surfaceID   : 002
+clipSelect  : 000 121 256 151
+clipDeselect: 000 121 256 151
+actionID    : 999 999 049 015
+neighbors   : 065 066 999 999 038
+
+buttonID    : 65 (ok button)
+textString  : Join Channel OK
+textOffset  : 999 999 (N/A)
+enabled     : 999
+cursorPos   : 016 350
+enabledPos  : 058 350
+disabledPos : 058 481 
+surfaceID   : 007
+clipSelect  : 000 001 256 031
+clipDeselect: 000 001 256 031
+actionID    : 999 999 049 051
+neighbors   : 066 064 999 999 999
+
+buttonID    : 66 (ok button)
+textString  : Next
+textOffset  : 999 999 (N/A)
+enabled     : 999
+cursorPos   : 016 270
+enabledPos  : 058 270
+disabledPos : 058 481 
+surfaceID   : 007
+clipSelect  : 000 151 256 181
+clipDeselect: 000 151 256 181
+actionID    : 999 999 049 050
+neighbors   : 064 065 999 999 999
+
+buttonID    : 67 (Error Profile exists)
+textString  : DUPLICATE PROFILE
+textOffset  : 030 030
+enabled     : 999
+cursorPos   : 116 122
+enabledPos  : 120 075
+disabledPos : 120 481
+surfaceID   : 008
+clipSelect  : 000 168 209 216
+clipDeselect: 000 168 209 216
+actionID    : 999 999 021 999 
+neighbors   : 999 999 999 999 999
+
+buttonID    : 68 (Error Incorrect Password)
+textString  : BAD PASSWORD
+textOffset  : 030 030
+enabled     : 999
+cursorPos   : 116 122
+enabledPos  : 120 075
+disabledPos : 120 481
+surfaceID   : 008
+clipSelect  : 000 168 209 216
+clipDeselect: 000 168 209 216
+actionID    : 999 999 021 999 
+neighbors   : 999 999 999 999 999
+
+buttonID    : 69 (Error Could not connect to lobby)
+textString  : BAD CONNECTION
+textOffset  : 030 030
+enabled     : 999
+cursorPos   : 116 122
+enabledPos  : 120 075
+disabledPos : 120 481
+surfaceID   : 008
+clipSelect  : 000 168 209 216
+clipDeselect: 000 168 209 216
+actionID    : 999 999 021 999 
+neighbors   : 999 999 999 999 999
+
+buttonID    : 70 (Error Profile no exist)
+textString  : NO PROFILE
+textOffset  : 030 030
+enabled     : 999
+cursorPos   : 116 122
+enabledPos  : 120 075
+disabledPos : 120 481
+surfaceID   : 008
+clipSelect  : 000 168 209 216
+clipDeselect: 000 168 209 216
+actionID    : 999 999 021 999 
+neighbors   : 999 999 999 999 999
+
+buttonID    : 71 (New Puzzle Game)
+textString  : New Puzzle Game
+textOffset  : 999 999 (N/A)
+enabled     : 999
+cursorPos   : 016 239
+enabledPos  : 058 239
+disabledPos : 058 481 
+surfaceID   : 007
+clipSelect  : 000 181 256 211
+clipDeselect: 000 181 256 211
+actionID    : 999 999 999 054
+neighbors   : 073 072 999 999 999
+
+buttonID    : 72 (Puzzle Password)
+textString  : Puzzle Password
+textOffset  : 999 999 (N/A)
+enabled     : 999
+cursorPos   : 016 303
+enabledPos  : 058 303
+disabledPos : 058 481
+surfaceID   : 007
+clipSelect  : 000 211 256 241
+clipDeselect: 000 211 256 241
+actionID    : 999 999 999 055
+neighbors   : 071 073 999 999 999
+
+buttonID    : 73 (CANCEL PUZZLE MODE)
+textString  : CANCEL PUZZLE MODE
+textOffset  : 999 999 (N/A)
+enabled     : 999
+cursorPos   : 016 431
+enabledPos  : 058 431 
+disabledPos : 058 481
+surfaceID   : 002
+clipSelect  : 000 121 256 151
+clipDeselect: 000 121 256 151
+actionID    : 999 999 999 015
+neighbors   : 072 071 999 999 999
+
+buttonID    : 74 (ENTER Puzzle Password)
+textString  : 999
+textOffset  : 093 009
+enabled     : 999
+cursorPos   : 332 220
+enabledPos  : 374 220
+disabledPos : 720 220
+surfaceID   : 008
+clipSelect  : 000 140 209 168
+clipDeselect: 000 140 209 168
+actionID    : 999 999 056 057
+neighbors   : 999 999 999 999 999
+
+buttonID    : 75 (Client Stats Cancel)
+textString  : CANCEL
+textOffset  : 999 999 (N/A)
+enabled     : 999
+cursorPos   : 016 431
+enabledPos  : 058 431 //378
+disabledPos : 058 481
+surfaceID   : 002
+clipSelect  : 000 121 256 151
+clipDeselect: 000 121 256 151
+actionID    : 999 999 059 060
+neighbors   : 999 999 999 999 999
+
+buttonID    : 76 (TITLE SCREEN left side)
+textString  : TITLE SCREEN 00
+textOffset  : 999 999 (N/A)
+enabled     : 999
+cursorPos   : 000 000
+enabledPos  : 064 050 
+disabledPos : 064 -200
+surfaceID   : 013
+clipSelect  : 000 001 256 194
+clipDeselect: 000 001 256 194
+actionID    : 999 999 999 999
+neighbors   : 999 999 999 999 999
+
+buttonID    : 77 (TITLE SCREEN left side)
+textString  : TITLE SCREEN 01
+textOffset  : 999 999 (N/A)
+enabled     : 999
+cursorPos   : 000 000
+enabledPos  : 320 050
+disabledPos : 320 -200
+surfaceID   : 014
+clipSelect  : 000 001 256 194
+clipDeselect: 000 001 256 194
+actionID    : 999 999 999 999
+neighbors   : 999 999 999 999 999
+
+buttonID    : 78 (CREDITS Button)
+textString  : CREDITS BUTTONS
+textOffset  : 999 999 (N/A)
+enabled     : 999
+cursorPos   : 298 375
+enabledPos  : 340 375
+disabledPos : 640 375
+surfaceID   : 007
+clipSelect  : 000 121 256 151
+clipDeselect: 000 121 256 151
+actionID    : 999 999 062 061
+neighbors   : 027 029 999 999 999
+
+
+**** file format ****
+
+     - buttonID    :	this is the index of the button as it appears in
+			the button array. this line is not actually read
+			from the file; it's used purely for reference
+
+     - textString  :	this is the message that appears on the button
+
+     - textOffset  :	these are the coordinates where the text string is
+			displayed. these coordinates are relative to the
+			position of the button's upper left corner
+
+     - enabled     :	this is a number that determines whether or not the
+			button is enabled upon loading. 999 means that the
+			button is disabled, and any other number means that the
+			button is enabled. the value of that number determines
+			how long to wait until the button is "activated"
+
+     - cursorPos   :	this is the point that the cursor "heat-seeks" when
+			the button is selected
+
+     - enabledPos  :	this is the point that the button "heat-seeks" when
+			it is selected
+
+     - disabledPos :	this is the point that the button "heat-seeks" when
+			it is de-selected
+
+     - surfaceID   :	this number refers to an index of an array of surfaces
+			where the button's graphics are stored
+
+     - clipSelect  :	these are the clipping coordinates for the button when
+			it is selected
+
+     - clipDeselect:	these are the clipping coordinates for the button when
+			it is NOT selected
+
+     - actionID	   :    1st is select action, 2nd is deselect,
+			3rd is updating, 4th is for launch.
+
+     - neighbors   :	a sequence of 5 numbers which represent indices of the
+			button array. the numbers determine which buttons are
+			located above, below, to the left, and to the right of
+			the button (in that order). the 5th number is the index
+			of a parent button (if any). an index of 99 means that
+			the button doesn't have any neighbors in that direction

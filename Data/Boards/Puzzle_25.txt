@@ -1,0 +1,16 @@
+<PUZZLE_25>
+<type: 0001> flat board
+<rows: 0003>
+<cols: 0005>
+<camx: 0000>
+<camy: 0000>
+<camz: 0000>
+<rotx: 0000>
+<roty: 0000>
+<rotz: 0000>
+<nmov: 0003>
+<smsg: PUZZLE 25: BEATMAN CAN SOLVE THIS
+<gems:
+P0 BP CB G0 00
+B0 CG GC P0 CG
+P0 BP CB G0 00

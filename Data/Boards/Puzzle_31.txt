@@ -1,0 +1,19 @@
+<PUZZLE_31>
+<type: 0001> flat board
+<rows: 0006>
+<cols: 0005>
+<camx: 0000>
+<camy: 0000>
+<camz: 0000>
+<rotx: 0000>
+<roty: 0000>
+<rotz: 0000>
+<nmov: 0003>
+<smsg: PUZZLE 31: TIMING IS CRUCIAL
+<gems:
+00 00 00 00 00
+CY RY RY Y0 00
+R0 CR R0 00 Y0
+00 0Y C0 R0 00
+R0 CR R0 00 Y0
+CY RY RY Y0 00

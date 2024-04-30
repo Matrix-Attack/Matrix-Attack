@@ -1,0 +1,25 @@
+<PUZZLE_7>
+<type: 0001> flat board
+<rows: 0005>
+<cols: 0005>
+<camx: 0000>
+<camy: 0000>
+<camz: 0000>
+<rotx: 0000>
+<roty: 0000>
+<rotz: 0000>
+<nmov: 0003>
+<smsg: PUZZLE 7: WELCOME TO THE %c2PASSIVE %c0SIDE.
+<gems:
+00 00 C0 00 00
+C0 C0 00 BC B0
+00 00 00 B0 00
+B0 B0 00 C0 C0
+00 00 B0 00 00
+
+// 0 == grayed out
+// P == purple
+// B == blue
+// G == green
+// Y == yellow
+// C == cyan

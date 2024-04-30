@@ -1,0 +1,16 @@
+<PUZZLE_4>
+<type: 0001> flat board
+<rows: 0003>
+<cols: 0005>
+<camx: 0000>
+<camy: 0000>
+<camz: 0000>
+<rotx: 0000>
+<roty: 0000>
+<rotz: 0000>
+<nmov: 0001>
+<smsg: %c0PUZZLE 4: NOW YOU'RE GETTING IT
+<gems:
+B0 P0 P0 00 00
+B0 P0 B0 P0 00
+00 00 B0 B0 P0

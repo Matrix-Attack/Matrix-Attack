@@ -1,0 +1,21 @@
+<PUZZLE_9>
+<type: 0001> flat board
+<rows: 0008>
+<cols: 0005>
+<camx: 0000>
+<camy: 0000>
+<camz: 0000>
+<rotx: 0000>
+<roty: 0000>
+<rotz: 0000>
+<nmov: 0008>
+<smsg: PUZZLE 9: WE'LL MEET AGAIN...
+<gems:
+00 00 00 00 R0
+00 R0 B0 RB B0
+00 R0 B0 RB B0
+00 R0 B0 RB B0
+00 R0 00 00 B0
+00 00 00 00 00
+00 00 00 00 00
+00 00 00 00 00

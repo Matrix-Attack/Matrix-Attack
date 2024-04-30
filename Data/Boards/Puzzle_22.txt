@@ -1,0 +1,24 @@
+<PUZZLE_22>
+<type: 0001> flat board
+<rows: 0011>
+<cols: 0005>
+<camx: 0000>
+<camy: 0000>
+<camz: 0000>
+<rotx: 0000>
+<roty: 0000>
+<rotz: 0000>
+<nmov: 0010>
+<smsg: PUZZLE 22: HOT DOGGIN'
+<gems:
+P0 C0 C0 C0 C0
+00 P0 P0 P0 P0
+C0 B0 B0 B0 B0
+00 P0 P0 P0 P0
+B0 C0 C0 C0 C0
+00 P0 P0 P0 P0
+C0 B0 B0 B0 B0
+00 P0 P0 P0 P0
+B0 C0 C0 C0 C0
+00 P0 P0 P0 P0
+C0 00 00 00 00

@@ -1,0 +1,17 @@
+<PUZZLE_33>
+<type: 0001> flat board
+<rows: 0004>
+<cols: 0005>
+<camx: 0000>
+<camy: 0000>
+<camz: 0000>
+<rotx: 0000>
+<roty: 0000>
+<rotz: 0000>
+<nmov: 0002>
+<smsg: PUZZLE 33: GOTTA BE %c5FAST!
+<gems:
+00 00 00 R0 R0
+R0 R0 00 00 R0
+R0 00 00 00 00
+R0 00 R0 00 00

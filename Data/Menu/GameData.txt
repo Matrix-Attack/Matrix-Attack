@@ -1,0 +1,347 @@
+**** comments *******************************************************
+     - explanation of file format can be found at the bottom
+
+     - because this file is generalized for buttons of all types,
+	some of the information is irrelevant for some types of
+	buttons. in this case, the information is labeled "N/A"
+
+     - these are the surfaceIDs as defined in gamemenu.h (current as
+		of 1999 OCT 22):
+
+#define CLUSTER_BUTTON					0
+#define COMBO_BUTTON					1
+#define LINKER_BUTTON					2
+
+*********************************************************************
+
+buttonID    : 0 (CLUSTER)
+textString  : CLUSTER
+textOffset  : 000 000
+enabled     : 999
+cursorPos   : 000 000
+enabledPos  : 131 004
+disabledPos : -256 004
+surfaceID   : 000
+clipSelect  : 000 000 000 000
+clipDeselect: 000 000 000 000
+actionID    : 999 999 000 999
+neighbors   : 999 999 999 999 999
+
+buttonID    : 1 (COMBO)
+textString  : COMBO
+textOffset  : 000 000
+enabled     : 999
+cursorPos   : 000 000
+enabledPos  : 131 028
+disabledPos : -256 028
+surfaceID   : 000
+clipSelect  : 000 000 000 000
+clipDeselect: 000 000 000 000
+actionID    : 999 999 000 999
+neighbors   : 999 999 999 999 999
+
+buttonID    : 2 (LINKER)
+textString  : LINKER
+textOffset  : 000 000
+enabled     : 999
+cursorPos   : 000 000
+enabledPos  : 131 052
+disabledPos : -256 052
+surfaceID   : 000
+clipSelect  : 000 000 000 000
+clipDeselect: 000 000 000 000
+actionID    : 999 999 000 999
+neighbors   : 999 999 999 999 999
+
+buttonID    : 3 (Player 1)
+textString  : 999
+textOffset  : 999 999
+enabled     : 999
+cursorPos   : 000 000
+enabledPos  : 000 003
+disabledPos : -95 003
+surfaceID   : 010
+clipSelect  : 000 130 104 238
+clipDeselect: 000 130 104 238
+actionID    : 999 999 999 999
+neighbors   : 999 999 999 999 999
+
+buttonID    : 4 (Player 2)
+textString  : 999
+textOffset  : 999 999
+enabled     : 999
+cursorPos   : 000 000
+enabledPos  : 000 124
+disabledPos : -95 124
+surfaceID   : 010
+clipSelect  : 000 130 104 238
+clipDeselect: 000 130 104 238
+actionID    : 999 999 999 999
+neighbors   : 999 999 999 999 999
+
+buttonID    : 5 (Player 3)
+textString  : 999
+textOffset  : 999 999
+enabled     : 999
+cursorPos   : 000 000
+enabledPos  : 000 245
+disabledPos : -95 245
+surfaceID   : 010
+clipSelect  : 000 130 104 238
+clipDeselect: 000 130 104 238
+actionID    : 999 999 999 999
+neighbors   : 999 999 999 999 999
+
+buttonID    : 6 (Player 4)
+textString  : 999
+textOffset  : 999 999
+enabled     : 999
+cursorPos   : 000 000
+enabledPos  : 000 366
+disabledPos : -95 366
+surfaceID   : 010
+clipSelect  : 000 130 104 238
+clipDeselect: 000 130 104 238
+actionID    : 999 999 999 999
+neighbors   : 999 999 999 999 999
+
+buttonID    : 7 (FPS button) //because Phil wants it
+textString  : FPS
+textOffset  : 999 999
+enabled     : 999
+cursorPos   : 000 000
+enabledPos  : 300 005
+disabledPos : 300 -15
+surfaceID   : 010
+clipSelect  : 000 000 000 000
+clipDeselect: 000 000 000 000
+actionID    : 999 999 002 999
+neighbors   : 999 999 999 999 999
+
+buttonID    : 8 (Moves left) //Puzzel mode
+textString  : MOVES LEFT
+textOffset  : 999 999
+enabled     : 999
+cursorPos   : 000 000
+enabledPos  : 537 124
+disabledPos : 640 124
+surfaceID   : 010
+clipSelect  : 152 130 255 238
+clipDeselect: 152 130 255 238
+actionID    : 999 999 003 999
+neighbors   : 999 999 999 999 999
+
+buttonID    : 9 (YOU LOSE!!!! SIGN) 
+textString  : GAME OVER
+textOffset  : 999 999
+enabled     : 999
+cursorPos   : 000 000
+enabledPos  : 200 100
+disabledPos : 200 -260
+surfaceID   : 012
+clipSelect  : 000 129 256 256
+clipDeselect: 000 129 256 256
+actionID    : 999 999 999 999
+neighbors   : 999 999 999 999 999
+
+buttonID    : 10 (PUZZLE STOMPED!! SIGN)
+textString  : YOU WIN
+textOffset  : 999 999
+enabled     : 999
+cursorPos   : 000 000
+enabledPos  : 200 100
+disabledPos : 200 -260
+surfaceID   : 012
+clipSelect  : 000 000 256 128
+clipDeselect: 000 000 256 128
+actionID    : 999 999 999 999
+neighbors   : 999 999 999 999 999
+
+buttonID    : 11 (NEXT PUZZLE'S PASSWORD)
+textString  : PASSWORD
+textOffset  : 000 000
+enabled     : 999
+cursorPos   : 000 000
+enabledPos  : 200 250		//was 300
+disabledPos : 200 481
+surfaceID   : 000
+clipSelect  : 000 000 000 000
+clipDeselect: 000 000 000 000
+actionID    : 999 999 004 999
+neighbors   : 999 999 999 999 999
+
+buttonID    : 12 (BOARD START TEXT)
+textString  : THIS TEXT IS WHAT YOU WILL SEE WHEN A NEW BOARD STARTS!
+textOffset  : 000 000
+enabled     : 999
+cursorPos   : 000 000
+enabledPos  : 200 180
+disabledPos : 200 -10
+surfaceID   : 000
+clipSelect  : 000 000 000 000
+clipDeselect: 000 000 000 000
+actionID    : 999 999 005 999
+neighbors   : 999 999 999 999 999
+
+buttonID    : 13 (WINNER CONTINUE)
+textString  : CONTINUE?
+textOffset  : 000 000
+enabled     : 999
+cursorPos   : 170 300
+enabledPos  : 210 300
+disabledPos : 210 481
+surfaceID   : 000
+clipSelect  : 000 000 000 000
+clipDeselect: 000 000 000 000
+actionID    : 999 999 999 006
+neighbors   : 020 014 999 999 999
+
+buttonID    : 14 (WINNER PLAY AGAIN?)
+textString  : PLAY AGAIN?
+textOffset  : 000 000
+enabled     : 999
+cursorPos   : 170 320
+enabledPos  : 210 320
+disabledPos : 210 481
+surfaceID   : 000
+clipSelect  : 000 000 000 000
+clipDeselect: 000 000 000 000
+actionID    : 999 999 999 007
+neighbors   : 013 015 999 999 999
+
+buttonID    : 15 (WINNER QUIT)
+textString  : QUIT?
+textOffset  : 000 000
+enabled     : 999
+cursorPos   : 170 350
+enabledPos  : 210 350
+disabledPos : 210 481
+surfaceID   : 000
+clipSelect  : 000 000 000 000
+clipDeselect: 000 000 000 000
+actionID    : 999 999 999 008
+neighbors   : 014 020 999 999 999
+
+buttonID    : 16 (LOSER PLAY AGAIN?)
+textString  : PLAY AGAIN?
+textOffset  : 000 000
+enabled     : 999
+cursorPos   : 170 320
+enabledPos  : 210 320
+disabledPos : 210 481
+surfaceID   : 000
+clipSelect  : 000 000 000 000
+clipDeselect: 000 000 000 000
+actionID    : 999 999 999 007
+neighbors   : 018 017 999 999 999
+
+buttonID    : 17 (LOSER QUIT)
+textString  : QUIT?
+textOffset  : 000 000
+enabled     : 999
+cursorPos   : 170 350
+enabledPos  : 210 350
+disabledPos : 210 481
+surfaceID   : 000
+clipSelect  : 000 000 000 000
+clipDeselect: 000 000 000 000
+actionID    : 999 999 999 008
+neighbors   : 016 018 999 999 999
+
+buttonID    : 18 (LOSER PLAY RANDOM SONG)
+textString  : NEW SONG?
+textOffset  : 000 000
+enabled     : 999
+cursorPos   : 170 300
+enabledPos  : 210 300
+disabledPos : 210 481
+surfaceID   : 000
+clipSelect  : 000 000 000 000
+clipDeselect: 000 000 000 000
+actionID    : 999 999 999 009
+neighbors   : 017 016 999 999 999
+
+buttonID    : 19 (STREAK COMMENT) // Taunts you, or says good job.
+textString  : STREAK OUTCOME:
+textOffset  : 000 000
+enabled     : 999
+cursorPos   : 000 000
+enabledPos  : 150 440
+disabledPos : 150 481
+surfaceID   : 000
+clipSelect  : 000 000 000 000
+clipDeselect: 000 000 000 000
+actionID    : 999 999 010 999
+neighbors   : 999 999 999 999 999
+
+buttonID    : 20 (WINNER PLAY RANDOM SONG)
+textString  : NEW SONG?
+textOffset  : 000 000
+enabled     : 999
+cursorPos   : 170 280
+enabledPos  : 210 280
+disabledPos : 210 481
+surfaceID   : 000
+clipSelect  : 000 000 000 000
+clipDeselect: 000 000 000 000
+actionID    : 999 999 999 009
+neighbors   : 015 013 999 999 999
+
+buttonID    : 21 (NAME OF THE SONG WILL COME UP WHEN YOU PRESS F1 OR F2)
+textString  : NAME OF SONG:
+textOffset  : 000 000
+enabled     : 999
+cursorPos   : 000 000
+enabledPos  : 150 440
+disabledPos : 150 481
+surfaceID   : 000
+clipSelect  : 000 000 000 000
+clipDeselect: 000 000 000 000
+actionID    : 999 999 010 999
+neighbors   : 999 999 999 999 999
+
+**** file format ****
+
+     - buttonID    :	this is the index of the button as it appears in
+			the button array. this line is not actually read
+			from the file; it's used purely for reference
+
+     - textString  :	this is the message that appears on the button
+
+     - textOffset  :	these are the coordinates where the text string is
+			displayed. these coordinates are relative to the
+			position of the button's upper left corner
+
+     - enabled     :	this is a number that determines whether or not the
+			button is enabled upon loading. 999 means that the
+			button is disabled, and any other number means that the
+			button is enabled. the value of that number determines
+			how long to wait until the button is "activated"
+
+     - cursorPos   :	this is the point that the cursor "heat-seeks" when
+			the button is selected
+
+     - enabledPos  :	this is the point that the button "heat-seeks" when
+			it is selected
+
+     - disabledPos :	this is the point that the button "heat-seeks" when
+			it is de-selected
+
+     - surfaceID   :	this number refers to an index of an array of surfaces
+			where the button's graphics are stored
+
+     - clipSelect  :	these are the clipping coordinates for the button when
+			it is selected
+
+     - clipDeselect:	these are the clipping coordinates for the button when
+			it is NOT selected
+
+     - actionID	   :    1st is select action, 2nd is deselect,
+			3rd is updating, 4th is for launch.
+
+     - neighbors   :	a sequence of 5 numbers which represent indices of the
+			button array. the numbers determine which buttons are
+			located above, below, to the left, and to the right of
+			the button (in that order). the 5th number is the index
+			of a parent button (if any). an index of 99 means that
+			the button doesn't have any neighbors in that direction

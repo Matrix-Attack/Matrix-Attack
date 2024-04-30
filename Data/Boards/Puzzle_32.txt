@@ -1,0 +1,18 @@
+<PUZZLE_32>
+<type: 0001> flat board
+<rows: 0005>
+<cols: 0005>
+<camx: 0000>
+<camy: 0000>
+<camz: 0000>
+<rotx: 0000>
+<roty: 0000>
+<rotz: 0000>
+<nmov: 0005>
+<smsg: PUZZLE 32: USE CHEATER TACTICS
+<gems:
+R0 YR RG CR 00
+PR YP PG PC P0
+YP 00 00 GR C0
+PR YP PG PC P0
+R0 YR RG CR 00

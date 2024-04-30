@@ -1,0 +1,18 @@
+<PUZZLE_19>
+<type: 0001> flat board
+<rows: 0005>
+<cols: 0005>
+<camx: 0000>
+<camy: 0000>
+<camz: 0000>
+<rotx: 0000>
+<roty: 0000>
+<rotz: 0000>
+<nmov: 0001>
+<smsg: PUZZLE 19: SICK OF FLIPS YET?
+<gems:
+00 C0 00 C0 00
+00 C0 C0 00 00
+0G G0 GC G0 G0
+00 C0 C0 00 00
+00 C0 00 C0 00

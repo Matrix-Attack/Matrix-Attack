@@ -1,0 +1,170 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Client App - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/resource.res" /d "NDEBUG" "D:\Gamez\matrix attack no music\matrix attack\resource.rc"" 
+Creating temporary file "C:\DOCUME~1\DARKAI~1\LOCALS~1\Temp\RSP2F44.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/Client App.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Gamez\matrix attack no music\matrix attack\font.cpp"
+"D:\Gamez\matrix attack no music\matrix attack\GLText.cpp"
+"D:\Gamez\matrix attack no music\matrix attack\TextObjects.cpp"
+"D:\Gamez\matrix attack no music\matrix attack\TextObjMethods.cpp"
+"D:\Gamez\matrix attack no music\matrix attack\API_OpenGL.cpp"
+"D:\Gamez\matrix attack no music\matrix attack\Bitmap.cpp"
+"D:\Gamez\matrix attack no music\matrix attack\Blt2DopenGL.cpp"
+"D:\Gamez\matrix attack no music\matrix attack\glParticles.cpp"
+"D:\Gamez\matrix attack no music\matrix attack\RedrawOpenGL.cpp"
+"D:\Gamez\matrix attack no music\matrix attack\tga.cpp"
+"D:\Gamez\matrix attack no music\matrix attack\API_DDraw.cpp"
+"D:\Gamez\matrix attack no music\matrix attack\asm.cpp"
+"D:\Gamez\matrix attack no music\matrix attack\DDParticles.cpp"
+"D:\Gamez\matrix attack no music\matrix attack\DDrawText.cpp"
+"D:\Gamez\matrix attack no music\matrix attack\RedrawDDraw.cpp"
+"D:\Gamez\matrix attack no music\matrix attack\RGB16_DDraw.cpp"
+"D:\Gamez\matrix attack no music\matrix attack\Dinput.cpp"
+"D:\Gamez\matrix attack no music\matrix attack\App.cpp"
+"D:\Gamez\matrix attack no music\matrix attack\DPlay.cpp"
+"D:\Gamez\matrix attack no music\matrix attack\dxerror.cpp"
+"D:\Gamez\matrix attack no music\matrix attack\input.cpp"
+"D:\Gamez\matrix attack no music\matrix attack\UserSettings.cpp"
+"D:\Gamez\matrix attack no music\matrix attack\utility.cpp"
+"D:\Gamez\matrix attack no music\matrix attack\board.cpp"
+"D:\Gamez\matrix attack no music\matrix attack\camera3d.cpp"
+"D:\Gamez\matrix attack no music\matrix attack\face3d.cpp"
+"D:\Gamez\matrix attack no music\matrix attack\GEM3D.CPP"
+"D:\Gamez\matrix attack no music\matrix attack\object3d.cpp"
+"D:\Gamez\matrix attack no music\matrix attack\vector3d.cpp"
+"D:\Gamez\matrix attack no music\matrix attack\ChatInput.cpp"
+"D:\Gamez\matrix attack no music\matrix attack\GameButtons.cpp"
+"D:\Gamez\matrix attack no music\matrix attack\gamemenu.cpp"
+"D:\Gamez\matrix attack no music\matrix attack\IPInput.cpp"
+"D:\Gamez\matrix attack no music\matrix attack\MenuButtons.cpp"
+"D:\Gamez\matrix attack no music\matrix attack\GameData.cpp"
+"D:\Gamez\matrix attack no music\matrix attack\player.cpp"
+"D:\Gamez\matrix attack no music\matrix attack\Score.cpp"
+"D:\Gamez\matrix attack no music\matrix attack\Timer.cpp"
+"D:\Gamez\matrix attack no music\matrix attack\gsound.cpp"
+"D:\Gamez\matrix attack no music\matrix attack\GSoundSamples.cpp"
+"D:\Gamez\matrix attack no music\matrix attack\SoundFile.cpp"
+"D:\Gamez\matrix attack no music\matrix attack\dataBase.cpp"
+"D:\Gamez\matrix attack no music\matrix attack\Main.cpp"
+"D:\Gamez\matrix attack no music\matrix attack\mmgr.cpp"
+"D:\Gamez\matrix attack no music\matrix attack\WndProc.cpp"
+"D:\Gamez\matrix attack no music\matrix attack\win_utilities.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\DARKAI~1\LOCALS~1\Temp\RSP2F44.tmp" 
+Creating temporary file "C:\DOCUME~1\DARKAI~1\LOCALS~1\Temp\RSP2F45.tmp" with contents
+[
+user32.lib dplayx.lib dxguid.lib ddraw.lib kernel32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib glu32.lib dinput.lib dsound.lib winmm.lib fmodvc.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/Client App.pdb" /machine:I386 /out:"Release/Client App.exe" 
+".\Release\font.obj"
+".\Release\GLText.obj"
+".\Release\TextObjects.obj"
+".\Release\TextObjMethods.obj"
+".\Release\API_OpenGL.obj"
+".\Release\Bitmap.obj"
+".\Release\Blt2DopenGL.obj"
+".\Release\glParticles.obj"
+".\Release\RedrawOpenGL.obj"
+".\Release\tga.obj"
+".\Release\API_DDraw.obj"
+".\Release\asm.obj"
+".\Release\DDParticles.obj"
+".\Release\DDrawText.obj"
+".\Release\RedrawDDraw.obj"
+".\Release\RGB16_DDraw.obj"
+".\Release\Dinput.obj"
+".\Release\App.obj"
+".\Release\DPlay.obj"
+".\Release\dxerror.obj"
+".\Release\input.obj"
+".\Release\UserSettings.obj"
+".\Release\utility.obj"
+".\Release\board.obj"
+".\Release\camera3d.obj"
+".\Release\face3d.obj"
+".\Release\GEM3D.OBJ"
+".\Release\object3d.obj"
+".\Release\vector3d.obj"
+".\Release\ChatInput.obj"
+".\Release\GameButtons.obj"
+".\Release\gamemenu.obj"
+".\Release\IPInput.obj"
+".\Release\MenuButtons.obj"
+".\Release\GameData.obj"
+".\Release\player.obj"
+".\Release\Score.obj"
+".\Release\Timer.obj"
+".\Release\gsound.obj"
+".\Release\GSoundSamples.obj"
+".\Release\SoundFile.obj"
+".\Release\dataBase.obj"
+".\Release\Main.obj"
+".\Release\mmgr.obj"
+".\Release\WndProc.obj"
+".\Release\win_utilities.obj"
+".\Release\resource.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\DARKAI~1\LOCALS~1\Temp\RSP2F45.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+font.cpp
+GLText.cpp
+TextObjects.cpp
+TextObjMethods.cpp
+API_OpenGL.cpp
+Bitmap.cpp
+Blt2DopenGL.cpp
+glParticles.cpp
+RedrawOpenGL.cpp
+tga.cpp
+API_DDraw.cpp
+asm.cpp
+DDParticles.cpp
+DDrawText.cpp
+RedrawDDraw.cpp
+RGB16_DDraw.cpp
+Dinput.cpp
+App.cpp
+DPlay.cpp
+dxerror.cpp
+input.cpp
+UserSettings.cpp
+utility.cpp
+board.cpp
+camera3d.cpp
+face3d.cpp
+GEM3D.CPP
+object3d.cpp
+vector3d.cpp
+ChatInput.cpp
+GameButtons.cpp
+gamemenu.cpp
+IPInput.cpp
+MenuButtons.cpp
+GameData.cpp
+player.cpp
+Score.cpp
+Timer.cpp
+gsound.cpp
+GSoundSamples.cpp
+SoundFile.cpp
+dataBase.cpp
+Main.cpp
+mmgr.cpp
+WndProc.cpp
+win_utilities.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Client App.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

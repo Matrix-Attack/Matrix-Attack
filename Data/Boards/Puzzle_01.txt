@@ -1,0 +1,23 @@
+<PUZZLE_1>
+<type: 0001> flat board
+<rows: 0003>
+<cols: 0005>
+<camx: 0000>
+<camy: 0000>
+<camz: 0000>
+<rotx: 0000>
+<roty: 0000>
+<rotz: 0000>
+<nmov: 0001>
+<smsg: %c0WELCOME TO PUZZLE MODE... I AM YOUR HOST.
+<gems:
+R0 00 00 00 00
+00 R0 R0 R0 00
+00 00 00 00 R0
+
+// 0 == grayed out
+// P == purple
+// B == blue
+// G == green
+// Y == yellow
+// C == cyan

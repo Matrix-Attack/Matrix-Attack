@@ -1,0 +1,17 @@
+<PUZZLE_16>
+<type: 0001> flat board
+<rows: 0004>
+<cols: 0005>
+<camx: 0000>
+<camy: 0000>
+<camz: 0000>
+<rotx: 0000>
+<roty: 0000>
+<rotz: 0000>
+<nmov: 0003>
+<smsg: PUZZLE 16: WANT MORE FLIPS?
+<gems:
+00 RY RY RY 00
+BR 00 00 YB 00
+00 BR 00 YB 00
+00 BR YB 00 00

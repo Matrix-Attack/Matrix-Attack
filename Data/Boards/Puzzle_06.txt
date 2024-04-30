@@ -1,0 +1,19 @@
+<PUZZLE_6>
+<type: 0001> flat board
+<rows: 0006>
+<cols: 0005>
+<camx: 0000>
+<camy: 0000>
+<camz: 0000>
+<rotx: 0000>
+<roty: 0000>
+<rotz: 0000>
+<nmov: 0003>
+<smsg: PUZZLE 6: THE BIG BANG
+<gems:
+00 00 00 C0 C0
+C0 00 C0 00 Y0
+C0 C0 Y0 00 C0
+Y0 00 C0 Y0 Y0
+C0 00 Y0 00 Y0
+Y0 Y0 00 00 00

@@ -1,0 +1,16 @@
+<PUZZLE_2>
+<type: 0001> flat board
+<rows: 0003>
+<cols: 0005>
+<camx: 0000>
+<camy: 0000>
+<camz: 0000>
+<rotx: 0000>
+<roty: 0000>
+<rotz: 0000>
+<nmov: 0002>
+<smsg: %c0PUZZLE 2: THIS ONE IS %c2HARD!
+<gems:
+00 00 00 P0 00
+00 00 00 P0 00
+P0 P0 00 P0 00

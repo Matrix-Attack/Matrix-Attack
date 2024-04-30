@@ -1,0 +1,218 @@
+
+-= Version Information for MATRIX ATTACK =-
+
+Matrix Attack Development history:
+
+- Matrix Attack version 1.0 was created at DigiPen institute of Technology in the 
+  4th semester by the whole team. (3 months)
+- Eli and Max created version 1.1 two years later during the summer of 2001. (1 week)
+- Eli created version 1.21 later on in the summer of 2001.  (1 week)
+
+You should be able to find the latest version of matrix attack here:
+http://www.digipen.edu/downloads
+
+
+Team Matrix is:
+	Tim Berry		
+	Eli Emerson		
+	Andy Kaplan		
+	Ryan Kohler		
+	Greg Morchower	
+	Max Szlagor	
+
+Music by:
+	Doug Quinn	"www.mp3.com/DougNoTronik"
+
+
+**** VERSION 1.22 ****
+	GamePlay:
+	   - Added a little treat if you reach 25,000 points in time trial. ( VERY HARD TO DO ) I havn't
+		been able to do it ever since the new score table.
+
+	   - Added a version information in the Titlescreen.
+	
+	   - Fixed the frame rate problem in DirectDraw Fullscreen mode. The flip() function was suckin'.
+		Switched that bad boy over to blit()... much better. Wise man once say, 75fps is better than 30fps.
+
+	   - Yet more fixes with time and gameplay. On other machines, ones that skip allot with cpu time,
+		I noticed that it affected switching gems.. as well as the buttons and the cursor. So I fixed it.
+
+	   - Tweaked the score again. This time Streaks are worth more when you reach higher levels, but
+		worth less per cluster. Im trying to make 10,000pts the score everyone wants. Of course
+		once you get that you should be able to go allot higher with your MA skills.
+
+	   - There was a bug in counting the number of combos and linkers... can't belive this slipped 
+		through... anyway, the score is fixed again.
+	Art:
+	   - Found a pixel that was floating in the middle of some art.. so i took that one pixel out.. heh.
+
+**** VERSION 1.21 ****
+	GamePlay:
+	   - Fixed the resetting of the background colors in Time Trial mode. Doh! its my fault for 
+		coding all night and missing this. -Eli
+
+	   - Put Camera mode back in.
+
+	   - I felt that streaks were not rewarding enough so I added a streak point table, 
+		so when the announcer says something you know you got some points. 
+
+	   - Fixed a bug in the menu when you press ESC while entering the character password.
+
+	   - Made buttons enable and disable based on time rather than updates. 
+		(what were we thinking back then? -eli )
+
+	   - Added a link to Doug Quinn's website. He did the music and allot of people were wanting
+		to know more about this programmer/musician. "www.mp3.com/DougNoTronik"
+
+**** VERSION 1.2e ****
+	
+	Sound and Music:
+	   - Made music goto the next track in the list when it finishes playing the current track.
+
+	   - Added "New Song?" menu option that will play the next song in the song list.
+
+	   - Added hot keys (F1 and F2) for Next song and Previous song.
+
+	   - Added .mp3 file drop in support. 
+		 (Now you can listen to your favorite music while playing matrix attack!
+		  Just put the .mp3 files you want to listen to in the Music folder )
+	
+	GamePlay:
+	   - Added a new feature -> STREAKS!!!! 
+			Read the readme.txt for an explanation of this SWEET new feature!
+
+	   - Added different colored backgrounds. In Time Trial when your points reach a certain point
+		the background will change color. (kind of like tetris) In puzzle mode its just random.
+
+	   - Added a SWITCHER dot icons that appears when you press ENTER to switch. This is to help
+		the user understand what gems you can switch with, and what gems you cannot.
+
+	   - Wrote new instructions, hopefully people will understand these instructions better.
+
+	   - Tweaked the Point table AGAIN. This time streaks help more and combos help less.
+
+	   - Made sure the random gems that initially appear on the "active" side didn't
+		already match up to form clusters. Heh we didn't check that before so some
+		people were given free clusters. Note: not doing this on the "passive" side.
+
+	   - The time taken for Flips have been increased to match switches.
+
+	   - The ESC key FINNALY takes you back a menu or out of the game rather than just
+		  quits the whole game.
+
+	   - Re arranged some of the puzzles so they seem more "in order".
+	      That infinity puzzle was way too early in the mix.
+
+	   - Added another puzzle that eases people into the passive side concept.
+
+	   - Made the puzzle startup text stay on for a longer period of time. (now you can read it)
+
+	   - Put "Real" code words in the puzzle code list. 
+	      Before it was PUZZLEXX where XX == puzzle number.
+	      (you can still type in PUZZLEXX to warp to a puzzle though - developer secret revealed!)
+	
+	Input:
+	   - Added Arrow keys to match the AWSD keys and visa versa for the menus.
+			( this needed to happen a long time ago )
+
+	   - Fixed the switching from fullscreen to windowed loss of input bug.
+
+	System:
+	   - Fixed a bug where if you were in fullscreen, and in openGL mode when you quit the desktop
+		had the same resolution as Matrix Attack 640x480. This only happened on win9x.
+
+	   - Finally put an icon into the .exe so now "Matrix Attack.exe" looks like a blue gem.
+		
+
+**** VERSION 1.1 ****
+	
+	Sound and Music:
+	   - Rewrote all sound and music code, we are now harnessing the power of fmod.
+
+	   - We can now stream mp3s instead of those long crappy .wav music files we used to have.
+	
+	Multiplayer:
+	   - We removed the multiplayer option. We decided to do this so we can release the game
+	      to the public with minimal problems. This was our first attempt at networking and while
+	      we DID get it working, its not ready for the public.	
+	
+	GamePlay:
+	   - Tweaked the score so that linkers are worth more.
+
+	   - Made the different cluster sounds occur more often. 
+		(ie 6,7,8 gem cluster each have different sounds now)
+
+	   - Rewrote the timer code, so now things are actually based on time. 
+		Rather than update counts, ugh. Timed puzzles used to be harder for those who had 
+		fast computers...AHAHAH HAH ha... heh.. ok, not that funny.
+
+	   - Got rid of passwords for profiles. Too many people forgot their password...
+	     (we still need to get rid of the associated menu buttons )
+
+	Sound:
+	   - Changed the volume on a few soundFX. That MAD MAN combo sound was WAY TOO LOUD!!!! heh
+
+	Statistics:
+	   - Completely rewrote the stats code and the timer code, thereby fixing all Stats bugs.
+	
+	Input:
+	   - Enter key problem fixed because of new timer code.
+
+	
+**** VERSION 1.0 *****
+
+SinglePlayer and MultiPlayer:
+
+     GamePlay:
+	- gameplay all round needs evaluated and fixed.
+	- combos don't seem to reset sometimes. they used to work... >=/  
+
+     Statistics:
+ 	- highest combo and linker doesn't get recorded
+
+	- the whole system skips as soon as you look at the stats. (I know this because i had 
+		win amp running in the background and it skips exactly the same time when 
+		our background tiles skip) side note: I think its because of our timer code. -eli
+	- the stats don't seem to FULLY get rid of what the player did when you erase that player...
+		(i found this out when you play with a player ... get a high score... then erase.. 
+		 then make a new character .. that new character will have the same stats as the first
+		 character that was erased)
+
+     Input:
+	- custom key settings (right now they are fixed)
+	- in openGL our enter key doesn't always work.. (needs to be outside the timer code)
+	- when switching from fullscreen to windowed and visa versa we loose input
+
+     Sound:
+	- some sounds need to be timed correctly.
+	- some sounds need to be made for the higher combos .. 8 on up.
+	- all sound volumes need to be tweaked (so one is not louder than the other)
+
+     System:
+	- high polygon models have messed up color values (not hard to fix)
+	- if your operating system is in 640x480 and you try to start the game WINDOWED you will
+	- get a flip DDRAW error. (it is suppose to automatically take you into full screen)
+
+  
+     Multiplayer:
+	- health subtraction needs to depend on the move done the player
+	- names, face icons are both wrong(mixed up) (they used to work...)
+	- sometimes gems don't clear when they are suppose to.. (works fine in single player)
+	- can't (in game) quit from a multiplayer game... heh who would have thought.
+	- multiplayer time trial mode is missing.... (in mp time Trial, health doesn't matter, only points)
+	- update "correct" character icons and names (host and client)
+	- alignment of player carrots (backside of board)
+
+
+**** future improvements ****
+     Things we would like to add/fix:
+
+	- add 2 player vs. mode. 
+	- add a training mode.	
+	- add sound f/x and music volume controls.
+	- add music track selection controls.
+	- add the ability for multiple players on one machine... (either game pad or keyboard)		
+	- Lobby chat is great... but what bout chatting with your opponents in-game?
+	- end of puzzle mode confirmation.
+	- camera effects. 
+		(since gems are REALLY 3D we should be able to do a F-ZERO like camera effect on startup)
